@@ -1,0 +1,17 @@
+Encomenda Nº 328
+
+Robôs Dançarinos
+
+    Crie um Robôs capazes de dançar sem parar, sim isso mesmo 
+que você ouviu! ROBÔS COM BATERIAS INFINITAS!!! 
+    O rapaz que contratou o serviço não é lá essas coisas, mas
+pagando é o que importa, ne? Faça um serviço caprichado, uns três
+Robôs devem ser o suficiente, agora algo que deixo pra você
+responder... já aprendemos a fazer baterias infinitas???
+
+Nome dos Robôs: Cleimer, Claustro e Fóbico
+Cores dos Robôs: Azul, Verde e Preto
+Tipo de Especialidade: Dança
+Estilo: Tango
+
+Ass: Robô Amante da Rua 99º

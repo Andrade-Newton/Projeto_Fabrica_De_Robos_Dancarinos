@@ -1,0 +1,16 @@
+Encomenda Nº 43
+
+Robô Cantor
+
+    Crie um Robô cantor para uma festa infantil para
+proxima semana, ele tem q cantar pop e ter cor cinza
+os adolescentes de hoje em dia gostam de cores mais
+darks, sem vida... sabe? Problema deles! vão ter um
+robô brilhoso SIM!
+
+Nome do Robô: Steve
+Cor do Robô: Brilhoso
+Tipo de Especialidade: Canto
+Estilo: Pop
+
+Ass: Robô Anelar

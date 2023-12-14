@@ -1,0 +1,17 @@
+Encomenda Nº 779
+
+Robô DJ
+
+    Crie um Robô capaz de tocar músicas em tempo recorde, ele
+tem que ser fenomenal no que faz, exigência pedida pela criança
+filha do capitão Boca Negra, ele é meio mimado, então acho melhor
+fazer um belo robô...
+    Tente ser bem rigoroso na resistência do Robô, aquelas crianças
+de festa são encapetadas, nunca se sabe o que pode acontecer....
+
+Nome do Robô: Miranda
+Cor do Robô: Platinado
+Tipo de Especialidade: Instrumental
+Estilo: Eletrônica
+
+Ass: Robô Cospe Gosma

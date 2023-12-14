@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Apresentacao</class>
+ <widget class="QMainWindow" name="Apresentacao">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>516</width>
+    <height>656</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>516</width>
+    <height>656</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Apresentção</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame_3">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label_maquina_4">
+         <property name="maximumSize">
+          <size>
+           <width>511</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 900 italic 18pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>       A GRANDE FÁBRICA DO SUCESSO!</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame">
+         <property name="styleSheet">
+          <string notr="true">border-radius:10px;
+background-color: rgb(25, 25, 25);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="1" column="0">
+           <widget class="QLabel" name="label">
+            <property name="minimumSize">
+             <size>
+              <width>460</width>
+              <height>200</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>460</width>
+              <height>200</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../../../../Downloads/DEU POR HJ.jpg</pixmap>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_2">
+         <property name="styleSheet">
+          <string notr="true">border-radius:10px;
+background-color: rgb(25, 25, 25);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="0" column="0">
+           <widget class="QPlainTextEdit" name="plain_atividade">
+            <property name="styleSheet">
+             <string notr="true">color: rgb(0, 0, 0);
+	background-color: rgb(150, 150, 150);
+font: 11pt &quot;Segoe UI&quot;;</string>
+            </property>
+            <property name="plainText">
+             <string>   Seja bem- vindo a aba de apresentação da SUPER-ULTRA-MEGA FÁBRICA DE ROBÔS DANÇARINOS!!!
+
+   Você deve estar se perguntando,  mas vocês só fabricam robôs que dançam? NÃO, NÓS FABRICAMOS TUDO O QUE ENVOLVE FESTAS!
+   Mas claro que há alguns padrões que devem ser seguidos, como a especialidade do robô fabricado, cada robô pode ter o nome e cor que desejar, entretanto, ainda somos limitados em relação a montagem de especialidade e estilo. Para as especialidades dos robôs temos, Músico, Instrumentalista e Dançarino.
+   - Músico: Tem como função cantar todos os tipos de música existente, desde jazz, rock até pop romântico, que fofinho ne? E também canta as músicas que ainda irão lançar!
+   - Instrumental: Esse é o mais diversificado que temos, este pode desde, tocar instrumentos como bateria, guitarra entre outros, como simplismente encher balões, fazer milkshakes e até fazer pipoca, se você gostar de doces ainda podemos adicionar um que faz bom-bom, que tal?
+   - Dançarino: Este é o mais encomendado por aqui, dança, rebola, pula, faz todos os tipos de paços e gingados que você imaginar!
+
+   Bom, acho que isso é mais que o suficiente para você caro robô pigmeu, até mais! 
+   
+   Bip-Bop!</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>516</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

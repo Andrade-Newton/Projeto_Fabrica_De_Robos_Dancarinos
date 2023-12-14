@@ -1,0 +1,13 @@
+Encomenda Nº 651
+
+Robô Dorme-BABY
+
+    Crianças são crianças, Robô são Robôs com a funcionalidade programada para fazer e concluir sua atividade com precisão, mas até eles se cansam quem dira meros seres com menos de um metro que só comem e dormem. Bem, um dos Robôs programados para colocar esses adoraveis seres para dormir fez tão bem seu serviço que não quer mais acordar
+    Acho que ele gostou muito desse trabalho, que tal colocarmos ele para outra função? O que foi? Não é uma ótima ideia para tira-lo de seu sono eterno? Modifique seu estilo de música para ele continuar fazendo seu trabalho sem que durma no processo, e também altere sua cor, desde quando cinza está na moda? Eu ein, alguns robôs por aqui são estranhos...
+
+Nome do Robô: João-ZZ98
+Cor do Robô: Cinza
+Tipo de Especialidade: Música
+Estilo: Cantiga de Ninar
+
+Ass: Robô Assistente Grim.0922

@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Fabrica</class>
+ <widget class="QMainWindow" name="Fabrica">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>817</width>
+    <height>537</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Fábrica - ROBÔS</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(11, 11, 11);
+color: rgb(255, 255, 255);
+background-color: rgb(11, 11, 11);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabela_inicial">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Início</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_7">
+        <item row="0" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_6">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item alignment="Qt::AlignHCenter">
+             <widget class="QLabel" name="label_funcao_3">
+              <property name="styleSheet">
+               <string notr="true">font: 18pt &quot;Segoe UI&quot;;
+font: 900 italic 16pt &quot;Segoe UI&quot;;</string>
+              </property>
+              <property name="text">
+               <string>Perfil</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QFrame" name="frame">
+              <property name="styleSheet">
+               <string notr="true">border-radius:10px;
+background-color: rgb(25, 25, 25);</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_2">
+               <item row="1" column="0" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                <widget class="QLabel" name="label_icone">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>../../../../Downloads/robozinho.jpg</pixmap>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item alignment="Qt::AlignHCenter">
+             <widget class="QLabel" name="label_funcao_2">
+              <property name="styleSheet">
+               <string notr="true">font: 18pt &quot;Segoe UI&quot;;
+font: 900 italic 16pt &quot;Segoe UI&quot;;</string>
+              </property>
+              <property name="text">
+               <string>Pequeno Pigmeu</string>
+              </property>
+             </widget>
+            </item>
+            <item alignment="Qt::AlignHCenter">
+             <widget class="QLabel" name="label_nome_usuario_2">
+              <property name="styleSheet">
+               <string notr="true">
+color: rgb(0, 170, 0);</string>
+              </property>
+              <property name="text">
+               <string>STATUS : ATIVO</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_8">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout">
+              <item>
+               <widget class="QLabel" name="label_informacoes">
+                <property name="styleSheet">
+                 <string notr="true">font: 18pt &quot;Segoe UI&quot;;
+font: 900 italic 16pt &quot;Segoe UI&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>Informações de Funcionário</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout">
+                <item>
+                 <widget class="QLabel" name="label_nome_usuario">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(150, 150, 150);
+font: 10pt &quot;Swis721 BlkCn BT&quot;;
+border-radius:5px;
+</string>
+                  </property>
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_2">
+                <item>
+                 <widget class="QLabel" name="label_email_usuario">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(150, 150, 150);
+font: 10pt &quot;Swis721 BlkCn BT&quot;;
+border-radius:5px;
+</string>
+                  </property>
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_7">
+              <item>
+               <widget class="QLabel" name="label_funcao">
+                <property name="styleSheet">
+                 <string notr="true">font: 18pt &quot;Segoe UI&quot;;
+font: 900 italic 16pt &quot;Segoe UI&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>Criador de Robôs</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="frame_2">
+                <property name="styleSheet">
+                 <string notr="true">border-radius:10px;
+background-color: rgb(25, 25, 25);</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_3">
+                 <item row="0" column="0">
+                  <widget class="QLabel" name="label_introducao">
+                   <property name="whatsThis">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">
+	background-color: rgb(150, 150, 150);
+font: 11pt &quot;Segoe UI&quot;;</string>
+                   </property>
+                   <property name="text">
+                    <string>    Seja bem-vindo pequeno funcionário, aqui nesta fábrica de robôs 
+temos como objetivo trazer alegria e diversão para todas as idades, 
+levando toda magia e energia que um mero robô pode trazer, verifique 
+diariamente sua agenda de atividades para manter a produção sobre 
+controle.
+
+   Ative, desative e crie robôs para todos os fins possíveis, o limite é 
+apenas a sua imaginação e sua habilidade em programar, mas nada do 
+que umas boas praticadas não resolva!
+ 
+   Contamos com você! Bip-Bop!</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_5">
+                <item>
+                 <widget class="QPushButton" name="button_apresentar_instrucoes">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(25, 25, 25);
+color: rgb(250,250,250);
+border-bottom:1px solid white;
+border: none;</string>
+                  </property>
+                  <property name="text">
+                   <string>Apresentar</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_6">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Fixed</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>300</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="button_salvar_dados">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(25, 25, 25);
+color: rgb(250,250,250);
+border-bottom:1px solid white;
+border: none;</string>
+                  </property>
+                  <property name="text">
+                   <string>Salvar Dados</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Agenda de Atividades</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item alignment="Qt::AlignHCenter">
+           <widget class="QLabel" name="label_informacoes_2">
+            <property name="styleSheet">
+             <string notr="true">font: 18pt &quot;Segoe UI&quot;;
+font: 900 italic 16pt &quot;Segoe UI&quot;;</string>
+            </property>
+            <property name="text">
+             <string>Agenda Programada</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="lista_Atividades">
+            <property name="styleSheet">
+             <string notr="true">
+	background-color: rgb(150, 150, 150);</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QPushButton" name="button_listar">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(25, 25, 25);
+color: rgb(250,250,250);
+border-bottom:1px solid white;
+border: none;</string>
+              </property>
+              <property name="text">
+               <string>Listar Agenda</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_2">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Fixed</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>120</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QPushButton" name="button_ir_para_fabrica">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(25, 25, 25);
+color: rgb(250,250,250);
+border-bottom:1px solid white;
+border: none;</string>
+              </property>
+              <property name="text">
+               <string>Ir para Fabrica</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="1">
+         <spacer name="horizontalSpacer_5">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Fixed</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="0" column="2">
+         <layout class="QVBoxLayout" name="verticalLayout_5"/>
+        </item>
+        <item row="0" column="3">
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <item alignment="Qt::AlignHCenter">
+           <widget class="QLabel" name="label_informacoes_3">
+            <property name="styleSheet">
+             <string notr="true">font: 18pt &quot;Segoe UI&quot;;
+font: 900 italic 16pt &quot;Segoe UI&quot;;</string>
+            </property>
+            <property name="text">
+             <string>Relátorio da Atividade</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPlainTextEdit" name="plain_atividade">
+            <property name="styleSheet">
+             <string notr="true">
+	background-color: rgb(150, 150, 150);</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QPushButton" name="button_concluir">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(25, 25, 25);
+color: rgb(250,250,250);
+border-bottom:1px solid white;
+border: none;</string>
+              </property>
+              <property name="text">
+               <string>Concluir</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_3">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Fixed</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>80</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QPushButton" name="button_vizualizar">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(25, 25, 25);
+color: rgb(250,250,250);
+border-bottom:1px solid white;
+border: none;</string>
+              </property>
+              <property name="text">
+               <string>Vizualizar Atividade</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>817</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,5 @@
+Nome_do_Nome,Cor_Estilosa,Especialidade,Estilo_de_Arte
+Caio-0002,Azul,Dança,Hip-Hop
+João-ZZ98,Cinza,Musica,Clássica
+Neto_T088,Verde,Cantor,Brega-Romântico
+Felix-ENCHE-BALÃO.2099,Azul com riscos Alaranjados,Instrumental,Balões
